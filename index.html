@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сток GAG - Ne_homyachok </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Thema -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="toggle-theme" />
+      <span class="slider"><span class="icon" id="theme-icon">🌙</span></span>
+    </label>
+  </div>
+
+  <header>
+    <h1>🧬 Сток Grow A Garden </h1>
+    <p>Сделано <strong>Ne_homyachok</strong></p>
+    <div class="controls">
+      <input type="text" id="search" placeholder="🔍 Поиск предметов..." />
+    </div>
+    <div class="filter-buttons">
+      <button data-category="all" class="active">Всё</button>
+      <button data-category="cosmetics">Косметика</button>
+      <button data-category="egg">Яйца</button>
+      <button data-category="gear">Инструменты</button>
+      <button data-category="event">Ивент</button>
+      <button data-category="seed">Семена</button>
+    </div>
+  </header>
+
+  <div id="loader" class="loader">🔄 Получаю данные...</div>
+  <main id="inventory-container"></main>
+
+  <footer>
+    <p>&copy;  2025 Ne_Homyachok  </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
